@@ -39,7 +39,7 @@ def showtareas():
     
     print("\nLista de tareas: ")
     for i, tarea in enumerate(tareas, start = 1):
-        print(f"{i}. {tarea['descripcion']} | Fecha: {tarea['fecha']} | Prioridad: {tarea['prioridad']}")
+        print(f"{i}. {tarea['descripción']} | Fecha: {tarea['fecha']} | Prioridad: {tarea['prioridad']}")
     print()
     
 def Opciones():
