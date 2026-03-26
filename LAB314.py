@@ -11,4 +11,4 @@ text = input("Pon una frase: ")
 if palindromia(text):
     print("La frase es palíndroma.")
 else:
-    print("El texto no es palíndromo.")
+    print("La frase no es palíndroma.")
