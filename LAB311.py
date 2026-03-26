@@ -10,6 +10,7 @@ como el primer diccionario, el nombre
 de la primera persona y la edad de la 
 segunda persona, para finalmente imprimir
 los resultados en la consola.
+2. Usar valores k y v.
 
 """
 # Diccionario: {} estructura de datos que almacena info. en pares de clave-valor, permitiendo
@@ -17,9 +18,9 @@ los resultados en la consola.
 # En si, sirve para almacenar datos asociados a una clave.
 people = [ 
     
-    { "nombre": "Yoruko Kabuya", "edad": 32 },
-    { "nombre": "Sora", "edad": 46},
-    {"nombre": "Fer", "edad": 24}
+    { "nombre": "Cylia", "edad": 16 },
+    { "nombre": "Kilye", "edad": 43},
+    {"nombre": "Maggie", "edad": 2}
     
 ]
 
@@ -32,3 +33,8 @@ print(diccionario)
 print(n1erperson)
 print(e2ndperson)
 print(n3erperson)
+
+print("")
+for person in people:
+    for k, v in person.items():
+        print(k, ":" ,v)
